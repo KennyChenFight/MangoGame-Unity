@@ -1,0 +1,22 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.SceneManagement;
+
+public class MainManager : MonoBehaviour {
+
+    public void StartGame()
+    {
+        SceneManager.LoadScene("GameScene");
+    }
+
+    public void SeeData()
+    {
+        SceneManager.LoadScene("DataScene");
+    }
+
+    public void Back()
+    {
+        SceneManager.LoadScene("AR_Project");
+    }
+}
